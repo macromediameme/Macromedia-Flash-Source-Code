@@ -1,0 +1,1388 @@
+<html xmlns:v="urn:schemas-microsoft-com:vml"
+xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:w="urn:schemas-microsoft-com:office:word"
+xmlns:dt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882"
+xmlns="http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta name="Microsoft Theme 2.00" content="corporat 010">
+<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+<meta name=ProgId content=Word.Document>
+<meta name=Generator content="Microsoft Word 9">
+<meta name=Originator content="Microsoft Word 9">
+<link rel=File-List href="./ControlTags_files/filelist.xml">
+<title>ControlTags</title>
+<!--[if gte mso 9]><xml>
+ <o:DocumentProperties>
+  <o:Template>Fffsdk</o:Template>
+  <o:LastAuthor>Brian Duisenberg</o:LastAuthor>
+  <o:Revision>5</o:Revision>
+  <o:TotalTime>4110</o:TotalTime>
+  <o:LastPrinted>1999-09-15T01:28:00Z</o:LastPrinted>
+  <o:Created>1999-11-12T20:14:00Z</o:Created>
+  <o:LastSaved>2000-01-14T18:04:00Z</o:LastSaved>
+  <o:Pages>2</o:Pages>
+  <o:Words>383</o:Words>
+  <o:Characters>2108</o:Characters>
+  <o:Company>Middlesoft, Inc.</o:Company>
+  <o:Lines>70</o:Lines>
+  <o:Paragraphs>40</o:Paragraphs>
+  <o:CharactersWithSpaces>2682</o:CharactersWithSpaces>
+  <o:Version>9.2720</o:Version>
+ </o:DocumentProperties>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:WordDocument>
+  <w:Zoom>144</w:Zoom>
+  <w:DrawingGridHorizontalSpacing>9.35 pt</w:DrawingGridHorizontalSpacing>
+  <w:DrawingGridVerticalSpacing>9.35 pt</w:DrawingGridVerticalSpacing>
+  <w:Compatibility>
+   <w:FootnoteLayoutLikeWW8/>
+   <w:ShapeLayoutLikeWW8/>
+   <w:AlignTablesRowByRow/>
+   <w:ForgetLastTabAlignment/>
+   <w:LayoutRawTableWidth/>
+   <w:LayoutTableRowsApart/>
+  </w:Compatibility>
+ </w:WordDocument>
+</xml><![endif]-->
+<style>
+<!--
+ /* Font Definitions */
+@font-face
+	{font-family:Wingdings;
+	panose-1:5 0 0 0 0 0 0 0 0 0;
+	mso-font-charset:2;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:0 268435456 0 0 -2147483648 0;}
+@font-face
+	{font-family:Tahoma;
+	panose-1:2 11 6 4 3 5 4 4 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:swiss;
+	mso-font-pitch:variable;
+	mso-font-signature:553679495 -2147483648 8 0 66047 0;}
+@font-face
+	{font-family:"Arial Black";
+	panose-1:2 11 10 4 2 1 2 2 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:swiss;
+	mso-font-pitch:variable;
+	mso-font-signature:647 0 0 0 159 0;}
+@font-face
+	{font-family:"Century Gothic";
+	panose-1:2 11 5 2 2 2 2 2 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:swiss;
+	mso-font-pitch:variable;
+	mso-font-signature:647 0 0 0 159 0;}
+@font-face
+	{font-family:"Gill Sans MT";
+	mso-font-alt:Arial;
+	mso-font-charset:0;
+	mso-generic-font-family:swiss;
+	mso-font-pitch:variable;
+	mso-font-signature:7 0 0 0 3 0;}
+@font-face
+	{font-family:Garamond;
+	panose-1:2 2 4 4 3 3 1 1 8 3;
+	mso-font-charset:0;
+	mso-generic-font-family:roman;
+	mso-font-pitch:variable;
+	mso-font-signature:647 0 0 0 159 0;}
+ /* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-parent:"";
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.2in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	mso-bidi-font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	color:black;
+	mso-bidi-language:HE;
+	mso-bidi-font-weight:bold;}
+h1
+	{mso-style-update:auto;
+	mso-style-next:Normal;
+	margin-top:12.0pt;
+	margin-right:0in;
+	margin-bottom:3.0pt;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	page-break-after:avoid;
+	mso-outline-level:1;
+	font-size:16.0pt;
+	font-family:"Arial Black";
+	mso-bidi-font-family:Arial;
+	color:windowtext;
+	mso-font-kerning:16.0pt;
+	mso-bidi-language:HE;
+	font-weight:normal;
+	mso-bidi-font-weight:bold;}
+h2
+	{mso-style-next:Normal;
+	margin-top:12.0pt;
+	margin-right:0in;
+	margin-bottom:3.0pt;
+	margin-left:0in;
+	mso-pagination:widow-orphan no-line-numbers;
+	page-break-after:avoid;
+	mso-outline-level:2;
+	tab-stops:.5in list .75in 1.0in;
+	border:none;
+	mso-border-bottom-alt:solid windowtext .5pt;
+	padding:0in;
+	mso-padding-alt:0in 0in 1.0pt 0in;
+	font-size:12.0pt;
+	mso-bidi-font-size:18.0pt;
+	font-family:"Century Gothic";
+	color:windowtext;
+	mso-bidi-language:HE;
+	font-weight:bold;
+	mso-bidi-font-weight:normal;
+	mso-bidi-font-style:italic;}
+h3
+	{mso-style-update:auto;
+	mso-style-next:Normal;
+	margin-top:12.0pt;
+	margin-right:0in;
+	margin-bottom:3.0pt;
+	margin-left:.2in;
+	mso-pagination:widow-orphan;
+	page-break-after:avoid;
+	mso-outline-level:3;
+	tab-stops:.5in list .75in 1.0in;
+	font-size:14.0pt;
+	mso-bidi-font-size:12.0pt;
+	font-family:"Gill Sans MT";
+	color:navy;
+	mso-bidi-language:HE;
+	font-weight:normal;
+	mso-bidi-font-weight:bold;}
+h4
+	{mso-style-next:Normal;
+	margin-top:12.0pt;
+	margin-right:0in;
+	margin-bottom:3.0pt;
+	margin-left:.2in;
+	mso-pagination:widow-orphan;
+	page-break-after:avoid;
+	mso-outline-level:4;
+	tab-stops:.5in list .75in 1.0in;
+	font-size:12.0pt;
+	font-family:"Gill Sans MT";
+	color:purple;
+	mso-bidi-language:HE;
+	font-weight:normal;
+	mso-bidi-font-weight:bold;}
+h5
+	{mso-style-next:Normal;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.2in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	page-break-after:avoid;
+	mso-outline-level:5;
+	tab-stops:4.5in;
+	font-size:10.0pt;
+	mso-bidi-font-size:12.0pt;
+	font-family:"Times New Roman";
+	color:black;
+	mso-bidi-language:HE;
+	font-weight:bold;
+	mso-bidi-font-weight:normal;}
+h6
+	{mso-style-next:Normal;
+	margin-top:12.0pt;
+	margin-right:0in;
+	margin-bottom:3.0pt;
+	margin-left:.1in;
+	text-indent:-.25in;
+	mso-pagination:widow-orphan;
+	mso-outline-level:6;
+	tab-stops:list .25in;
+	font-size:8.0pt;
+	font-family:"Century Gothic";
+	color:#000066;
+	mso-bidi-language:HE;
+	font-weight:normal;}
+p.MsoHeading7, li.MsoHeading7, div.MsoHeading7
+	{mso-style-next:Normal;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.2in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	page-break-after:avoid;
+	mso-outline-level:7;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	color:black;
+	mso-bidi-language:HE;
+	font-weight:bold;
+	mso-bidi-font-weight:normal;}
+p.MsoHeading8, li.MsoHeading8, div.MsoHeading8
+	{mso-style-next:Normal;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.2in;
+	margin-bottom:.0001pt;
+	text-align:center;
+	mso-pagination:widow-orphan;
+	page-break-after:avoid;
+	mso-outline-level:8;
+	font-size:10.0pt;
+	mso-bidi-font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	color:black;
+	mso-bidi-language:HE;
+	font-weight:bold;
+	mso-bidi-font-weight:normal;}
+p.MsoHeading9, li.MsoHeading9, div.MsoHeading9
+	{mso-style-next:Normal;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.2in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	page-break-after:avoid;
+	mso-outline-level:9;
+	font-size:14.0pt;
+	mso-bidi-font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	color:black;
+	mso-bidi-language:HE;
+	font-weight:bold;
+	mso-bidi-font-weight:normal;}
+p.MsoToc1, li.MsoToc1, div.MsoToc1
+	{mso-style-update:auto;
+	mso-style-next:Normal;
+	margin-top:6.0pt;
+	margin-right:0in;
+	margin-bottom:6.0pt;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	mso-bidi-font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	color:black;
+	text-transform:uppercase;
+	mso-bidi-language:HE;
+	font-weight:bold;}
+p.MsoToc2, li.MsoToc2, div.MsoToc2
+	{mso-style-update:auto;
+	mso-style-next:Normal;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:10.0pt;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	mso-bidi-font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	font-variant:small-caps;
+	color:black;
+	mso-bidi-language:HE;
+	mso-bidi-font-weight:bold;}
+p.MsoToc3, li.MsoToc3, div.MsoToc3
+	{mso-style-update:auto;
+	mso-style-next:Normal;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:20.0pt;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	mso-bidi-font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	color:black;
+	mso-bidi-language:HE;
+	mso-bidi-font-weight:bold;
+	font-style:italic;
+	mso-bidi-font-style:normal;}
+p.MsoToc4, li.MsoToc4, div.MsoToc4
+	{mso-style-update:auto;
+	mso-style-next:Normal;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:30.0pt;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:9.0pt;
+	mso-bidi-font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	color:black;
+	mso-bidi-language:HE;
+	mso-bidi-font-weight:bold;}
+p.MsoToc5, li.MsoToc5, div.MsoToc5
+	{mso-style-update:auto;
+	mso-style-next:Normal;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:40.0pt;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:9.0pt;
+	mso-bidi-font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	color:black;
+	mso-bidi-language:HE;
+	mso-bidi-font-weight:bold;}
+p.MsoToc6, li.MsoToc6, div.MsoToc6
+	{mso-style-update:auto;
+	mso-style-next:Normal;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:50.0pt;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:9.0pt;
+	mso-bidi-font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	color:black;
+	mso-bidi-language:HE;
+	mso-bidi-font-weight:bold;}
+p.MsoToc7, li.MsoToc7, div.MsoToc7
+	{mso-style-update:auto;
+	mso-style-next:Normal;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:60.0pt;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:9.0pt;
+	mso-bidi-font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	color:black;
+	mso-bidi-language:HE;
+	mso-bidi-font-weight:bold;}
+p.MsoToc8, li.MsoToc8, div.MsoToc8
+	{mso-style-update:auto;
+	mso-style-next:Normal;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:70.0pt;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:9.0pt;
+	mso-bidi-font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	color:black;
+	mso-bidi-language:HE;
+	mso-bidi-font-weight:bold;}
+p.MsoToc9, li.MsoToc9, div.MsoToc9
+	{mso-style-update:auto;
+	mso-style-next:Normal;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:80.0pt;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:9.0pt;
+	mso-bidi-font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	color:black;
+	mso-bidi-language:HE;
+	mso-bidi-font-weight:bold;}
+p.MsoFootnoteText, li.MsoFootnoteText, div.MsoFootnoteText
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.2in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	color:black;
+	mso-bidi-language:HE;
+	mso-bidi-font-weight:bold;}
+p.MsoHeader, li.MsoHeader, div.MsoHeader
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.2in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	tab-stops:center 3.0in right 6.0in;
+	font-size:10.0pt;
+	mso-bidi-font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	color:black;
+	mso-bidi-language:HE;
+	mso-bidi-font-weight:bold;}
+p.MsoFooter, li.MsoFooter, div.MsoFooter
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.2in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	tab-stops:center 3.0in right 6.0in;
+	font-size:10.0pt;
+	mso-bidi-font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	color:black;
+	mso-bidi-language:HE;
+	mso-bidi-font-weight:bold;}
+span.MsoFootnoteReference
+	{vertical-align:super;}
+span.MsoPageNumber
+	{mso-ascii-font-family:"Times New Roman";
+	mso-hansi-font-family:"Times New Roman";
+	color:windowtext;
+	mso-text-animation:none;
+	text-decoration:none;
+	text-underline:none;
+	text-decoration:none;
+	text-line-through:none;}
+p.MsoList, li.MsoList, div.MsoList
+	{mso-style-parent:"Body Text";
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:12.0pt;
+	margin-left:.25in;
+	text-align:justify;
+	mso-pagination:widow-orphan;
+	tab-stops:.5in;
+	font-size:12.0pt;
+	mso-bidi-font-size:10.0pt;
+	font-family:Garamond;
+	mso-fareast-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	color:windowtext;
+	letter-spacing:-.25pt;
+	mso-bidi-language:AR-SA;
+	mso-bidi-font-weight:bold;}
+p.MsoListBullet, li.MsoListBullet, div.MsoListBullet
+	{mso-style-update:auto;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.45in;
+	margin-bottom:.0001pt;
+	text-indent:-.25in;
+	mso-pagination:widow-orphan;
+	mso-list:l1 level1 lfo3;
+	tab-stops:list .45in;
+	font-size:10.0pt;
+	mso-bidi-font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	color:black;
+	mso-bidi-language:HE;
+	mso-bidi-font-weight:bold;}
+p.MsoTitle, li.MsoTitle, div.MsoTitle
+	{margin-top:5.0pt;
+	margin-right:0in;
+	margin-bottom:2.5in;
+	margin-left:0in;
+	text-align:center;
+	line-height:30.0pt;
+	mso-pagination:widow-orphan;
+	page-break-after:avoid;
+	border:none;
+	mso-border-bottom-alt:solid gray .75pt;
+	padding:0in;
+	mso-padding-alt:0in 0in 14.0pt 0in;
+	font-size:24.0pt;
+	mso-bidi-font-size:10.0pt;
+	font-family:"Arial Black";
+	mso-fareast-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	color:gray;
+	letter-spacing:-1.75pt;
+	mso-font-kerning:14.0pt;
+	mso-bidi-language:AR-SA;
+	mso-bidi-font-weight:normal;}
+p.MsoBodyText, li.MsoBodyText, div.MsoBodyText
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:12.0pt;
+	margin-left:0in;
+	text-align:justify;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	mso-bidi-font-size:10.0pt;
+	font-family:Garamond;
+	mso-fareast-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	color:windowtext;
+	letter-spacing:-.25pt;
+	mso-bidi-language:AR-SA;
+	mso-bidi-font-weight:normal;}
+p.MsoBodyTextIndent, li.MsoBodyTextIndent, div.MsoBodyTextIndent
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.2in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	mso-bidi-font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	color:black;
+	mso-bidi-language:HE;
+	mso-bidi-font-weight:bold;}
+p.MsoSubtitle, li.MsoSubtitle, div.MsoSubtitle
+	{mso-style-parent:Title;
+	mso-style-next:"Body Text";
+	margin-top:97.0pt;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:0in;
+	margin-bottom:.0001pt;
+	text-align:center;
+	line-height:10.0pt;
+	mso-pagination:widow-orphan;
+	page-break-after:avoid;
+	border:none;
+	mso-border-bottom-alt:solid gray .75pt;
+	padding:0in;
+	mso-padding-alt:0in 0in 14.0pt 0in;
+	font-size:9.0pt;
+	mso-bidi-font-size:10.0pt;
+	font-family:Garamond;
+	mso-fareast-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	color:gray;
+	text-transform:uppercase;
+	letter-spacing:1.5pt;
+	mso-font-kerning:14.0pt;
+	mso-bidi-language:AR-SA;
+	font-weight:bold;
+	mso-bidi-font-weight:normal;}
+p.MsoBodyTextIndent2, li.MsoBodyTextIndent2, div.MsoBodyTextIndent2
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.75in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	mso-bidi-font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	color:black;
+	mso-bidi-language:HE;
+	mso-bidi-font-weight:bold;}
+p.MsoBodyTextIndent3, li.MsoBodyTextIndent3, div.MsoBodyTextIndent3
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.25in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	mso-bidi-font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	color:black;
+	mso-bidi-language:HE;
+	mso-bidi-font-weight:bold;}
+a:link, span.MsoHyperlink
+	{color:blue;
+	text-decoration:underline;
+	text-underline:single;}
+a:visited, span.MsoHyperlinkFollowed
+	{color:purple;
+	text-decoration:underline;
+	text-underline:single;}
+p
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.2in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	mso-bidi-font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	color:black;
+	mso-bidi-language:HE;
+	mso-bidi-font-weight:bold;}
+pre
+	{margin:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	tab-stops:45.8pt 91.6pt 137.4pt 183.2pt 229.0pt 274.8pt 320.6pt 366.4pt 412.2pt 458.0pt 503.8pt 549.6pt 595.4pt 641.2pt 687.0pt 732.8pt;
+	font-size:10.0pt;
+	font-family:"Courier New";
+	mso-fareast-font-family:"Courier New";
+	mso-bidi-font-family:"Times New Roman";
+	color:black;
+	mso-bidi-language:AR-SA;
+	mso-bidi-font-weight:normal;}
+p.BodyTextKeep, li.BodyTextKeep, div.BodyTextKeep
+	{mso-style-name:"Body Text Keep";
+	mso-style-parent:"Body Text";
+	mso-style-next:"Body Text";
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:12.0pt;
+	margin-left:0in;
+	text-align:justify;
+	mso-pagination:widow-orphan;
+	page-break-after:avoid;
+	font-size:12.0pt;
+	mso-bidi-font-size:10.0pt;
+	font-family:Garamond;
+	mso-fareast-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	color:windowtext;
+	letter-spacing:-.25pt;
+	mso-bidi-language:AR-SA;
+	mso-bidi-font-weight:normal;}
+p.ChapterSubtitle, li.ChapterSubtitle, div.ChapterSubtitle
+	{mso-style-name:"Chapter Subtitle";
+	mso-style-next:"Body Text";
+	margin-top:0in;
+	margin-right:1.25in;
+	margin-bottom:.25in;
+	margin-left:0in;
+	mso-line-height-alt:12.0pt;
+	mso-pagination:widow-orphan lines-together;
+	page-break-after:avoid;
+	font-size:14.0pt;
+	mso-bidi-font-size:10.0pt;
+	font-family:Garamond;
+	mso-fareast-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	color:windowtext;
+	letter-spacing:-1.0pt;
+	mso-font-kerning:14.0pt;
+	mso-bidi-language:AR-SA;
+	mso-bidi-font-weight:normal;
+	font-style:italic;
+	mso-bidi-font-style:normal;}
+p.CompanyName, li.CompanyName, div.CompanyName
+	{mso-style-name:"Company Name";
+	mso-style-next:Normal;
+	margin-top:21.0pt;
+	margin-right:0in;
+	margin-bottom:3.0pt;
+	margin-left:0in;
+	mso-line-height-alt:16.0pt;
+	mso-pagination:widow-orphan;
+	font-size:19.0pt;
+	mso-bidi-font-size:10.0pt;
+	font-family:Garamond;
+	mso-fareast-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	color:windowtext;
+	text-transform:uppercase;
+	mso-font-kerning:18.0pt;
+	mso-bidi-language:AR-SA;
+	mso-bidi-font-weight:normal;}
+p.ReturnAddress, li.ReturnAddress, div.ReturnAddress
+	{mso-style-name:"Return Address";
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:center;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:Garamond;
+	mso-fareast-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	color:windowtext;
+	letter-spacing:-.15pt;
+	mso-bidi-language:AR-SA;
+	mso-bidi-font-weight:normal;}
+p.SectionLabel, li.SectionLabel, div.SectionLabel
+	{mso-style-name:"Section Label";
+	mso-style-next:Normal;
+	margin-top:102.0pt;
+	margin-right:0in;
+	margin-bottom:.25in;
+	margin-left:0in;
+	line-height:24.0pt;
+	mso-pagination:widow-orphan;
+	font-size:24.0pt;
+	mso-bidi-font-size:10.0pt;
+	font-family:"Arial Black";
+	mso-fareast-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	color:gray;
+	letter-spacing:-1.75pt;
+	mso-bidi-language:AR-SA;
+	mso-bidi-font-weight:normal;}
+p.SubtitleCover, li.SubtitleCover, div.SubtitleCover
+	{mso-style-name:"Subtitle Cover";
+	mso-style-next:Normal;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:264.0pt;
+	margin-left:0in;
+	line-height:24.0pt;
+	mso-pagination:widow-orphan;
+	page-break-after:avoid;
+	border:none;
+	mso-border-top-alt:solid windowtext .75pt;
+	padding:0in;
+	mso-padding-alt:1.0pt 0in 0in 0in;
+	font-size:22.0pt;
+	mso-bidi-font-size:10.0pt;
+	font-family:Garamond;
+	mso-fareast-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	color:windowtext;
+	letter-spacing:-.75pt;
+	mso-font-kerning:14.0pt;
+	mso-bidi-language:AR-SA;
+	mso-bidi-font-weight:normal;}
+p.TitleCover, li.TitleCover, div.TitleCover
+	{mso-style-name:"Title Cover";
+	mso-style-next:"Subtitle Cover";
+	margin-top:0in;
+	margin-right:30.0pt;
+	margin-bottom:0in;
+	margin-left:30.0pt;
+	margin-bottom:.0001pt;
+	text-align:right;
+	line-height:72.0pt;
+	mso-pagination:widow-orphan;
+	border:none;
+	mso-border-alt:solid white .75pt;
+	padding:0in;
+	mso-padding-alt:31.0pt 31.0pt 31.0pt 31.0pt;
+	font-size:72.0pt;
+	mso-bidi-font-size:10.0pt;
+	font-family:Garamond;
+	mso-fareast-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	color:windowtext;
+	mso-font-kerning:14.0pt;
+	mso-bidi-language:AR-SA;
+	mso-bidi-font-weight:normal;}
+p.runinhead, li.runinhead, div.runinhead
+	{mso-style-name:runinhead;
+	margin-right:0in;
+	mso-margin-top-alt:auto;
+	mso-margin-bottom-alt:auto;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:Arial;
+	mso-fareast-font-family:"Times New Roman";
+	color:black;
+	mso-bidi-language:AR-SA;
+	font-weight:bold;}
+span.runinhead1
+	{mso-style-name:runinhead1;
+	mso-ansi-font-size:11.0pt;
+	mso-bidi-font-size:11.0pt;
+	mso-ascii-font-family:Arial;
+	mso-hansi-font-family:Arial;
+	mso-bidi-font-family:Arial;
+	font-weight:bold;}
+@page Section1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.25in 1.0in 1.25in;
+	mso-header-margin:.5in;
+	mso-footer-margin:.5in;
+	mso-footer:url("./ControlTags_files/header.htm") f1;
+	mso-paper-source:0;}
+div.Section1
+	{page:Section1;}
+ /* List Definitions */
+@list l0
+	{mso-list-id:1929801498;
+	mso-list-type:simple;
+	mso-list-template-ids:201916431;}
+@list l0:level1
+	{mso-level-tab-stop:.25in;
+	mso-level-number-position:left;
+	margin-left:.25in;
+	text-indent:-.25in;}
+@list l1
+	{mso-list-id:2011642750;
+	mso-list-template-ids:66615452;}
+@list l1:level1
+	{mso-level-number-format:bullet;
+	mso-level-style-link:"List Bullet";
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:.45in;
+	mso-level-number-position:left;
+	margin-left:.45in;
+	text-indent:-.25in;
+	font-family:Symbol;}
+@list l1:level2
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:.7in;
+	mso-level-number-position:left;
+	margin-left:.7in;
+	text-indent:-.25in;
+	font-family:Wingdings;}
+@list l1:level3
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:.95in;
+	mso-level-number-position:left;
+	margin-left:.95in;
+	text-indent:-.25in;
+	font-family:Wingdings;}
+@list l1:level4
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:1.2in;
+	mso-level-number-position:left;
+	margin-left:1.2in;
+	text-indent:-.25in;
+	font-family:Symbol;}
+@list l1:level5
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:1.45in;
+	mso-level-number-position:left;
+	margin-left:1.45in;
+	text-indent:-.25in;
+	font-family:Symbol;}
+@list l1:level6
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:1.7in;
+	mso-level-number-position:left;
+	margin-left:1.7in;
+	text-indent:-.25in;
+	font-family:Symbol;}
+@list l1:level7
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:1.95in;
+	mso-level-number-position:left;
+	margin-left:1.95in;
+	text-indent:-.25in;
+	font-family:Symbol;}
+@list l1:level8
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:2.2in;
+	mso-level-number-position:left;
+	margin-left:2.2in;
+	text-indent:-.25in;
+	font-family:Symbol;}
+@list l1:level9
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A8;
+	mso-level-tab-stop:2.45in;
+	mso-level-number-position:left;
+	margin-left:2.45in;
+	text-indent:-.25in;
+	font-family:Symbol;}
+ol
+	{margin-bottom:0in;}
+ul
+	{margin-bottom:0in;}
+-->
+</style>
+<!--[if gte mso 9]><xml>
+ <o:shapedefaults v:ext="edit" spidmax="1027">
+  <v:stroke endarrow="block"/>
+  <v:shadow offset="6pt,-6pt"/>
+  <o:colormru v:ext="edit" colors="#ddd,#f8f8f8,#ccecff"/>
+  <o:colormenu v:ext="edit" fillcolor="black" strokecolor="navy" shadowcolor="none"
+   extrusioncolor="silver"/>
+ </o:shapedefaults></xml><![endif]--><!--[if gte mso 9]><xml>
+ <o:shapelayout v:ext="edit">
+  <o:idmap v:ext="edit" data="1"/>
+  <o:regrouptable v:ext="edit">
+   <o:entry new="1" old="0"/>
+   <o:entry new="2" old="0"/>
+   <o:entry new="3" old="0"/>
+   <o:entry new="4" old="3"/>
+   <o:entry new="5" old="0"/>
+   <o:entry new="6" old="0"/>
+   <o:entry new="7" old="0"/>
+  </o:regrouptable>
+ </o:shapelayout></xml><![endif]-->
+</head>
+
+<body bgcolor=white lang=EN-US link=blue vlink=purple style='tab-interval:.5in'>
+
+<div class=Section1>
+
+<p class=SectionLabel>Control Tags</p>
+
+<div style='border:none;border-bottom:solid windowtext .5pt;padding:0in 0in 1.0pt 0in'>
+
+<h2><a name="_Toc467042375">Control Tags Contents</a></h2>
+
+</div>
+
+<p class=MsoToc2 style='tab-stops:right dotted 431.5pt'><!--[if supportFields]><span
+style='font-variant:normal;text-transform:uppercase'><span style='mso-element:
+field-begin'></span><span style="mso-spacerun: yes"> </span>TOC \o
+&quot;1-4&quot; <span style='mso-element:field-separator'></span></span><![endif]--><span
+style='font-variant:normal;text-transform:uppercase'>Control Tags Contents<span
+style='mso-tab-count:1 dotted'>...................................................................................................................................................................................... </span><span
+style='mso-field-code:"PAGEREF _Toc467042375 \\h"'>1<!--[if gte mso 9]><xml>
+ <w:data>08D0C9EA79F9BACE118C8200AA004BA90B02000000080000000E0000005F0054006F0063003400360037003000340032003300370035000000</w:data>
+</xml><![endif]--></span><o:p></o:p></span></p>
+
+<p class=MsoToc2 style='tab-stops:right dotted 431.5pt'><span style='font-variant:
+normal;text-transform:uppercase'>Control Tags<span style='mso-tab-count:1 dotted'>......................................................................................................................................................................................................................... </span><span
+style='mso-field-code:"PAGEREF _Toc467042376 \\h"'>1<!--[if gte mso 9]><xml>
+ <w:data>08D0C9EA79F9BACE118C8200AA004BA90B02000000080000000E0000005F0054006F0063003400360037003000340032003300370036000000</w:data>
+</xml><![endif]--></span><o:p></o:p></span></p>
+
+<p class=MsoToc3 style='tab-stops:right dotted 431.5pt'>Control Tags<span
+style='mso-tab-count:1 dotted'>................................................................................................................................................................................................................................. </span><!--[if supportFields]><span
+style='mso-element:field-begin'></span> PAGEREF _Toc467042377 \h <span
+style='mso-element:field-separator'></span><![endif]-->1<!--[if gte mso 9]><xml>
+ <w:data>08D0C9EA79F9BACE118C8200AA004BA90B02000000080000000E0000005F0054006F0063003400360037003000340032003300370037000000</w:data>
+</xml><![endif]--><!--[if supportFields]><span style='mso-element:field-end'></span><![endif]--></p>
+
+<p class=MsoToc4 style='tab-stops:right dotted 431.5pt'>SetBackgroundColor<span
+style='mso-tab-count:1 dotted'>............................................................................................................................................................................................................. </span><span
+style='mso-field-code:"PAGEREF _Toc467042378 \\h"'>1<!--[if gte mso 9]><xml>
+ <w:data>08D0C9EA79F9BACE118C8200AA004BA90B02000000080000000E0000005F0054006F0063003400360037003000340032003300370038000000</w:data>
+</xml><![endif]--></span></p>
+
+<p class=MsoToc4 style='tab-stops:right dotted 431.5pt'>FrameLabel<span
+style='mso-tab-count:1 dotted'>................................................................................................................................................................................................................................. </span><span
+style='mso-field-code:"PAGEREF _Toc467042379 \\h"'>2<!--[if gte mso 9]><xml>
+ <w:data>08D0C9EA79F9BACE118C8200AA004BA90B02000000080000000E0000005F0054006F0063003400360037003000340032003300370039000000</w:data>
+</xml><![endif]--></span></p>
+
+<p class=MsoToc4 style='tab-stops:right dotted 431.5pt'>Protect<span
+style='mso-tab-count:1 dotted'>........................................................................................................................................................................................................................................... </span><span
+style='mso-field-code:"PAGEREF _Toc467042380 \\h"'>2<!--[if gte mso 9]><xml>
+ <w:data>08D0C9EA79F9BACE118C8200AA004BA90B02000000080000000E0000005F0054006F0063003400360037003000340032003300380030000000</w:data>
+</xml><![endif]--></span></p>
+
+<p class=MsoToc4 style='tab-stops:right dotted 431.5pt'>End<span
+style='mso-tab-count:1 dotted'>.................................................................................................................................................................................................................................................... </span><span
+style='mso-field-code:"PAGEREF _Toc467042381 \\h"'>2<!--[if gte mso 9]><xml>
+ <w:data>08D0C9EA79F9BACE118C8200AA004BA90B02000000080000000E0000005F0054006F0063003400360037003000340032003300380031000000</w:data>
+</xml><![endif]--></span></p>
+
+<p class=MsoNormal><!--[if supportFields]><span style='mso-element:field-end'></span><![endif]--><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<div style='border:none;border-bottom:solid windowtext .5pt;padding:0in 0in 1.0pt 0in'>
+
+<h2><a name="_Toc467042376">Control Tags</a></h2>
+
+</div>
+
+<p><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<p>There are three categories of ControlTags:</p>
+
+<p><b><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></b></p>
+
+<p style='margin-left:.75in;text-indent:-.25in;mso-list:l0 level1 lfo5;
+tab-stops:list .75in'><![if !supportLists]><b>1.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></b><![endif]><b>Display List<o:p></o:p></b></p>
+
+<p style='margin-left:.75in;text-indent:-.25in;mso-list:l0 level1 lfo5;
+tab-stops:list .75in'><![if !supportLists]><b>2.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></b><![endif]><b>Action<o:p></o:p></b></p>
+
+<p style='margin-left:.75in;text-indent:-.25in;mso-list:l0 level1 lfo5;
+tab-stops:list .75in'><![if !supportLists]><b>3.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></b><![endif]><b>Control<o:p></o:p></b></p>
+
+<p><b><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></b></p>
+
+<p>Display List and Action tags are covered in other sections (see <a
+href="DisplayList.htm">The Display List</a> and <a href="Actions.htm">Actions</a>).</p>
+
+<p><b><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></b></p>
+
+<h3><a name="_Toc467042377"></a><a name=h4ControltagsControl></a><a
+name=h4Actiontags></a><a name=h3DisplayList></a><a name=h3Control></a><span
+style='mso-bookmark:_Toc467042377'>Control Tags</span><a name=ControlTags></a></h3>
+
+<p>Control tags manage some overall aspects of files and frames.</p>
+
+<p style='margin-left:.5in'><span style="mso-spacerun: yes"> </span></p>
+
+<p style='margin-left:.5in'><span class=runinhead1><span style='mso-ansi-font-size:
+10.0pt;mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:"Times New Roman";
+font-weight:normal'><a href="#h4SetBackgroundColor"><b><span style='mso-bidi-font-size:
+12.0pt;mso-bidi-font-family:"Times New Roman"'>SetBackgroundColor</span></b></a></span></span><span
+class=runinhead1><span style='mso-ansi-font-size:10.0pt;mso-ascii-font-family:
+"Times New Roman";mso-hansi-font-family:"Times New Roman";mso-bidi-font-weight:
+normal'> — </span></span>Sets the background color displayed in the frame. </p>
+
+<p style='margin-left:.5in'><span class=runinhead1><span style='mso-ansi-font-size:
+10.0pt;mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:"Times New Roman";
+font-weight:normal'><a href="#h4FrameLabel"><b><span style='mso-bidi-font-size:
+12.0pt;mso-bidi-font-family:"Times New Roman"'>FrameLabel</span></b></a></span></span><span
+class=runinhead1><span style='mso-ansi-font-size:10.0pt;mso-ascii-font-family:
+"Times New Roman";mso-hansi-font-family:"Times New Roman";mso-bidi-font-weight:
+normal'> — </span></span>Labels a frame for your easy reference. </p>
+
+<p style='margin-left:.5in'><span class=runinhead1><span style='mso-ansi-font-size:
+10.0pt;mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:"Times New Roman";
+font-weight:normal'><a href="#h4Protect"><b><span style='mso-bidi-font-size:
+12.0pt;mso-bidi-font-family:"Times New Roman"'>Protect</span></b></a></span></span><span
+class=runinhead1><span style='mso-ansi-font-size:10.0pt;mso-ascii-font-family:
+"Times New Roman";mso-hansi-font-family:"Times New Roman";mso-bidi-font-weight:
+normal'> — </span></span>Marks the file so that it cannot be opened in the
+authoring system. </p>
+
+<p style='margin-left:.5in'><span class=runinhead1><span style='mso-ansi-font-size:
+10.0pt;mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:"Times New Roman";
+font-weight:normal'><a href="Sounds.htm#StartSound"><b><span style='mso-bidi-font-size:
+12.0pt;mso-bidi-font-family:"Times New Roman"'>StartSound</span></b></a></span></span><span
+class=runinhead1><span style='mso-ansi-font-size:10.0pt;mso-ascii-font-family:
+"Times New Roman";mso-hansi-font-family:"Times New Roman";mso-bidi-font-weight:
+normal'> </span></span><span class=runinhead1><span style='mso-ansi-font-size:
+10.0pt;font-family:Arial;mso-bidi-font-weight:normal'>— </span></span>Starts
+and stops a sound. </p>
+
+<p style='margin-left:.5in'><span class=runinhead1><span style='mso-ansi-font-size:
+10.0pt;mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:"Times New Roman";
+font-weight:normal'><a href="#h4End"><b><span style='mso-bidi-font-size:12.0pt;
+mso-bidi-font-family:"Times New Roman"'>End</span></b></a></span></span><span
+class=runinhead1><span style='mso-ansi-font-size:10.0pt;mso-ascii-font-family:
+"Times New Roman";mso-hansi-font-family:"Times New Roman";mso-bidi-font-weight:
+normal'> </span></span><span class=runinhead1><span style='mso-ansi-font-size:
+10.0pt;font-family:Arial;mso-bidi-font-weight:normal'>— </span></span>Marks the
+end of the SWF file. </p>
+
+<h4><a name="_Toc467042378"></a><a name=h4SetBackgroundColor></a><span
+style='mso-bookmark:_Toc467042378'>SetBackgroundColor</span></h4>
+
+<p>The SetBackgroundColor tag sets the background color of the display. (SWF
+1.0) </p>
+
+<p>(See class <a
+href="..\SWF_Manager_Docs\API_Docs\class_fctsetbackgroundcolor.html">FCTSetBackground<span
+style='mso-bookmark:_Hlt466373665'>C</span>olor</a><![if !supportNestedAnchors]><a
+name="_Hlt466373665"></a><![endif]> in the Flash File Format SDK)</p>
+
+<p><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<table border=1 cellspacing=0 cellpadding=0 style='margin-left:19.65pt;
+ border-collapse:collapse;border:none;mso-border-alt:solid navy .75pt;
+ mso-padding-alt:0in 4.2pt 0in 4.2pt'>
+ <tr>
+  <td width=561 colspan=3 valign=top style='width:420.95pt;border:solid navy .75pt;
+  background:navy;mso-shading:white;mso-pattern:solid navy;padding:0in 4.2pt 0in 4.2pt'>
+  <p class=MsoNormal><b><span style='font-family:Tahoma;mso-bidi-font-family:
+  "Times New Roman";color:white'>SetBackgroundColor<o:p></o:p></span></b></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=169 valign=top style='width:126.45pt;border:solid navy .75pt;
+  border-top:none;mso-border-top-alt:solid navy .75pt;background:white;
+  padding:0in 4.2pt 0in 4.2pt'>
+  <p class=MsoNormal><b><span style='color:windowtext'>Field</span></b><b><span
+  style='font-size:12.0pt;color:windowtext'><o:p></o:p></span></b></p>
+  </td>
+  <td width=195 valign=top style='width:146.05pt;border-top:none;border-left:
+  none;border-bottom:solid navy .75pt;border-right:solid navy .75pt;mso-border-top-alt:
+  solid navy .75pt;mso-border-left-alt:solid navy .75pt;background:white;
+  padding:0in 4.2pt 0in 4.2pt'>
+  <p class=MsoNormal><b><span style='color:windowtext'>Type</span></b><b><span
+  style='font-size:12.0pt;color:windowtext'><o:p></o:p></span></b></p>
+  </td>
+  <td width=198 valign=top style='width:148.45pt;border-top:none;border-left:
+  none;border-bottom:solid navy .75pt;border-right:solid navy .75pt;mso-border-top-alt:
+  solid navy .75pt;mso-border-left-alt:solid navy .75pt;background:white;
+  padding:0in 4.2pt 0in 4.2pt'>
+  <p class=MsoNormal><b><span style='color:windowtext'>Comment</span></b><b><span
+  style='font-size:12.0pt;color:windowtext'><o:p></o:p></span></b></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=169 valign=top style='width:126.45pt;border:solid navy .75pt;
+  border-top:none;mso-border-top-alt:solid navy .75pt;padding:0in 4.2pt 0in 4.2pt'>
+  <p class=MsoNormal><span style='color:windowtext'>Header</span><span
+  style='font-size:12.0pt;color:windowtext'><o:p></o:p></span></p>
+  </td>
+  <td width=195 valign=top style='width:146.05pt;border-top:none;border-left:
+  none;border-bottom:solid navy .75pt;border-right:solid navy .75pt;mso-border-top-alt:
+  solid navy .75pt;mso-border-left-alt:solid navy .75pt;padding:0in 4.2pt 0in 4.2pt'>
+  <p class=MsoNormal><span style='color:windowtext'>RECORDHEADER</span><span
+  style='font-size:12.0pt;color:windowtext'><o:p></o:p></span></p>
+  </td>
+  <td width=198 valign=top style='width:148.45pt;border-top:none;border-left:
+  none;border-bottom:solid navy .75pt;border-right:solid navy .75pt;mso-border-top-alt:
+  solid navy .75pt;mso-border-left-alt:solid navy .75pt;padding:0in 4.2pt 0in 4.2pt'>
+  <p class=MsoNormal><span style='color:windowtext'>Tag ID = 9</span><span
+  style='font-size:12.0pt;color:windowtext'><o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=169 valign=top style='width:126.45pt;border:solid navy .75pt;
+  border-top:none;mso-border-top-alt:solid navy .75pt;padding:0in 4.2pt 0in 4.2pt'>
+  <p class=MsoNormal><span style='color:windowtext'>BackgroundColor</span><span
+  style='font-size:12.0pt;color:windowtext'><o:p></o:p></span></p>
+  </td>
+  <td width=195 valign=top style='width:146.05pt;border-top:none;border-left:
+  none;border-bottom:solid navy .75pt;border-right:solid navy .75pt;mso-border-top-alt:
+  solid navy .75pt;mso-border-left-alt:solid navy .75pt;padding:0in 4.2pt 0in 4.2pt'>
+  <p class=MsoNormal><span style='color:windowtext'><a
+  href="BasicTypes.htm#h3ColorValues">R<span style='mso-bookmark:_Hlt465746279'>G</span>B</a><![if !supportNestedAnchors]><a
+  name="_Hlt465746279"></a><![endif]></span><span style='font-size:12.0pt;
+  color:windowtext'><o:p></o:p></span></p>
+  </td>
+  <td width=198 valign=top style='width:148.45pt;border-top:none;border-left:
+  none;border-bottom:solid navy .75pt;border-right:solid navy .75pt;mso-border-top-alt:
+  solid navy .75pt;mso-border-left-alt:solid navy .75pt;padding:0in 4.2pt 0in 4.2pt'>
+  <p class=MsoNormal><span style='color:windowtext'>Color of the movie
+  background</span><span style='font-size:12.0pt;color:windowtext'><o:p></o:p></span></p>
+  </td>
+ </tr>
+</table>
+
+<h4><a name="_Toc467042379"></a><a name=h4FrameLabel></a><span
+style='mso-bookmark:_Toc467042379'>FrameLabel</span></h4>
+
+<p>The FrameLabel tag gives the specified <b>Name </b>to the current
+frame.<span style="mso-spacerun: yes">  </span>This name is used by <a
+href="Actions.htm#ActionGoToLabel">ActionGot<span style='mso-bookmark:_Hlt465746135'>o</span>Label</a><![if !supportNestedAnchors]><a
+name="_Hlt465746135"></a><![endif]> to identify the frame.</p>
+
+<p>(See class <a href="..\SWF_Manager_Docs\API_Docs\class_fctframelabel.html">FCTFrame<span
+style='mso-bookmark:_Hlt466373753'>L</span>abel</a><![if !supportNestedAnchors]><a
+name="_Hlt466373753"></a><![endif]> in the Flash File Format SDK)</p>
+
+<p><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<table border=1 cellspacing=0 cellpadding=0 style='margin-left:19.65pt;
+ border-collapse:collapse;border:none;mso-border-alt:solid navy .75pt;
+ mso-padding-alt:0in 4.2pt 0in 4.2pt'>
+ <tr>
+  <td width=561 colspan=3 valign=top style='width:420.95pt;border:solid navy .75pt;
+  background:navy;mso-shading:white;mso-pattern:solid navy;padding:0in 4.2pt 0in 4.2pt'>
+  <p class=MsoNormal><b><span style='font-family:Tahoma;mso-bidi-font-family:
+  "Times New Roman";color:white'>FrameLabel<o:p></o:p></span></b></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=169 valign=top style='width:126.45pt;border:solid navy .75pt;
+  border-top:none;mso-border-top-alt:solid navy .75pt;background:white;
+  padding:0in 4.2pt 0in 4.2pt'>
+  <p class=MsoNormal><b><span style='color:windowtext'>Field</span></b><b><span
+  style='font-size:12.0pt;color:windowtext'><o:p></o:p></span></b></p>
+  </td>
+  <td width=195 valign=top style='width:146.05pt;border-top:none;border-left:
+  none;border-bottom:solid navy .75pt;border-right:solid navy .75pt;mso-border-top-alt:
+  solid navy .75pt;mso-border-left-alt:solid navy .75pt;background:white;
+  padding:0in 4.2pt 0in 4.2pt'>
+  <p class=MsoNormal><b><span style='color:windowtext'>Type</span></b><b><span
+  style='font-size:12.0pt;color:windowtext'><o:p></o:p></span></b></p>
+  </td>
+  <td width=198 valign=top style='width:148.45pt;border-top:none;border-left:
+  none;border-bottom:solid navy .75pt;border-right:solid navy .75pt;mso-border-top-alt:
+  solid navy .75pt;mso-border-left-alt:solid navy .75pt;background:white;
+  padding:0in 4.2pt 0in 4.2pt'>
+  <p class=MsoNormal><b><span style='color:windowtext'>Comment</span></b><b><span
+  style='font-size:12.0pt;color:windowtext'><o:p></o:p></span></b></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=169 valign=top style='width:126.45pt;border:solid navy .75pt;
+  border-top:none;mso-border-top-alt:solid navy .75pt;padding:0in 4.2pt 0in 4.2pt'>
+  <p class=MsoNormal><span style='color:windowtext'>Header</span><span
+  style='font-size:12.0pt;color:windowtext'><o:p></o:p></span></p>
+  </td>
+  <td width=195 valign=top style='width:146.05pt;border-top:none;border-left:
+  none;border-bottom:solid navy .75pt;border-right:solid navy .75pt;mso-border-top-alt:
+  solid navy .75pt;mso-border-left-alt:solid navy .75pt;padding:0in 4.2pt 0in 4.2pt'>
+  <p class=MsoNormal><span style='color:windowtext'>RECORDHEADER</span><span
+  style='font-size:12.0pt;color:windowtext'><o:p></o:p></span></p>
+  </td>
+  <td width=198 valign=top style='width:148.45pt;border-top:none;border-left:
+  none;border-bottom:solid navy .75pt;border-right:solid navy .75pt;mso-border-top-alt:
+  solid navy .75pt;mso-border-left-alt:solid navy .75pt;padding:0in 4.2pt 0in 4.2pt'>
+  <p class=MsoNormal><span style='color:windowtext'>Tag ID = 43</span><span
+  style='font-size:12.0pt;color:windowtext'><o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=169 valign=top style='width:126.45pt;border:solid navy .75pt;
+  border-top:none;mso-border-top-alt:solid navy .75pt;padding:0in 4.2pt 0in 4.2pt'>
+  <p class=MsoNormal><span style='color:windowtext'>Name</span><span
+  style='font-size:12.0pt;color:windowtext'><o:p></o:p></span></p>
+  </td>
+  <td width=195 valign=top style='width:146.05pt;border-top:none;border-left:
+  none;border-bottom:solid navy .75pt;border-right:solid navy .75pt;mso-border-top-alt:
+  solid navy .75pt;mso-border-left-alt:solid navy .75pt;padding:0in 4.2pt 0in 4.2pt'>
+  <p class=MsoNormal><span style='color:windowtext'>Null-terminated <a
+  href="BasicTypes.htm#STRING">STRI<span style='mso-bookmark:_Hlt465746715'>N</span>G</a><![if !supportNestedAnchors]><a
+  name="_Hlt465746715"></a><![endif]>. (0 is NULL)</span><span
+  style='font-size:12.0pt;color:windowtext'><o:p></o:p></span></p>
+  </td>
+  <td width=198 valign=top style='width:148.45pt;border-top:none;border-left:
+  none;border-bottom:solid navy .75pt;border-right:solid navy .75pt;mso-border-top-alt:
+  solid navy .75pt;mso-border-left-alt:solid navy .75pt;padding:0in 4.2pt 0in 4.2pt'>
+  <p class=MsoNormal><span style='color:windowtext'>Label for frame..</span><span
+  style='font-size:12.0pt;color:windowtext'><o:p></o:p></span></p>
+  </td>
+ </tr>
+</table>
+
+<h4><a name="_Toc467042380"></a><a name=h4Protect></a><span style='mso-bookmark:
+_Toc467042380'>Protect</span></h4>
+
+<p>The Protect tag marks a file as not importable for editing in the authoring
+tool. If this tag is present in the file, the authoring tool should prevent
+loading of the file for editing. (SWF 2.0) </p>
+
+<p>(See class <a href="..\SWF_Manager_Docs\API_Docs\class_fctprotect.html">FC<span
+style='mso-bookmark:_Hlt466373788'>T</span>Protect</a><![if !supportNestedAnchors]><a
+name="_Hlt466373788"></a><![endif]> in the Flash File Format SDK)</p>
+
+<p><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<table border=1 cellspacing=0 cellpadding=0 style='margin-left:19.65pt;
+ border-collapse:collapse;border:none;mso-border-alt:solid navy .75pt;
+ mso-padding-alt:0in 4.2pt 0in 4.2pt'>
+ <tr>
+  <td width=561 colspan=3 valign=top style='width:420.95pt;border:solid navy .75pt;
+  background:navy;mso-shading:white;mso-pattern:solid navy;padding:0in 4.2pt 0in 4.2pt'>
+  <p class=MsoNormal><b><span style='font-family:Tahoma;mso-bidi-font-family:
+  "Times New Roman";color:white'>Protect<o:p></o:p></span></b></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=169 valign=top style='width:126.45pt;border:solid navy .75pt;
+  border-top:none;mso-border-top-alt:solid navy .75pt;background:white;
+  padding:0in 4.2pt 0in 4.2pt'>
+  <p class=MsoNormal><b><span style='color:windowtext'>Field</span></b><b><span
+  style='font-size:12.0pt;color:windowtext'><o:p></o:p></span></b></p>
+  </td>
+  <td width=195 valign=top style='width:146.05pt;border-top:none;border-left:
+  none;border-bottom:solid navy .75pt;border-right:solid navy .75pt;mso-border-top-alt:
+  solid navy .75pt;mso-border-left-alt:solid navy .75pt;background:white;
+  padding:0in 4.2pt 0in 4.2pt'>
+  <p class=MsoNormal><b><span style='color:windowtext'>Type</span></b><b><span
+  style='font-size:12.0pt;color:windowtext'><o:p></o:p></span></b></p>
+  </td>
+  <td width=198 valign=top style='width:148.45pt;border-top:none;border-left:
+  none;border-bottom:solid navy .75pt;border-right:solid navy .75pt;mso-border-top-alt:
+  solid navy .75pt;mso-border-left-alt:solid navy .75pt;background:white;
+  padding:0in 4.2pt 0in 4.2pt'>
+  <p class=MsoNormal><b><span style='color:windowtext'>Comment</span></b><b><span
+  style='font-size:12.0pt;color:windowtext'><o:p></o:p></span></b></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=169 valign=top style='width:126.45pt;border:solid navy .75pt;
+  border-top:none;mso-border-top-alt:solid navy .75pt;padding:0in 4.2pt 0in 4.2pt'>
+  <p class=MsoNormal><span style='color:windowtext'>Header</span><span
+  style='font-size:12.0pt;color:windowtext'><o:p></o:p></span></p>
+  </td>
+  <td width=195 valign=top style='width:146.05pt;border-top:none;border-left:
+  none;border-bottom:solid navy .75pt;border-right:solid navy .75pt;mso-border-top-alt:
+  solid navy .75pt;mso-border-left-alt:solid navy .75pt;padding:0in 4.2pt 0in 4.2pt'>
+  <p class=MsoNormal><span style='color:windowtext'>RECORDHEADER</span><span
+  style='font-size:12.0pt;color:windowtext'><o:p></o:p></span></p>
+  </td>
+  <td width=198 valign=top style='width:148.45pt;border-top:none;border-left:
+  none;border-bottom:solid navy .75pt;border-right:solid navy .75pt;mso-border-top-alt:
+  solid navy .75pt;mso-border-left-alt:solid navy .75pt;padding:0in 4.2pt 0in 4.2pt'>
+  <p class=MsoNormal><span style='color:windowtext'>Tag ID = 24</span><span
+  style='font-size:12.0pt;color:windowtext'><o:p></o:p></span></p>
+  </td>
+ </tr>
+</table>
+
+<h4><a name="_Toc467042381"></a><a name=h4StartSound></a><a name=h4End></a><span
+style='mso-bookmark:_Toc467042381'>End</span></h4>
+
+<p>The End tag marks the end of a file. This should always be the last tag in a
+file. (SWF 1.0) </p>
+
+<p><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<table border=1 cellspacing=0 cellpadding=0 style='margin-left:19.65pt;
+ border-collapse:collapse;border:none;mso-border-alt:solid navy .75pt;
+ mso-padding-alt:0in 4.2pt 0in 4.2pt'>
+ <tr>
+  <td width=561 colspan=3 valign=top style='width:420.95pt;border:solid navy .75pt;
+  background:navy;mso-shading:white;mso-pattern:solid navy;padding:0in 4.2pt 0in 4.2pt'>
+  <p class=MsoNormal><b><span style='font-family:Tahoma;mso-bidi-font-family:
+  "Times New Roman";color:white'>End<o:p></o:p></span></b></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=169 valign=top style='width:126.45pt;border:solid navy .75pt;
+  border-top:none;mso-border-top-alt:solid navy .75pt;background:white;
+  padding:0in 4.2pt 0in 4.2pt'>
+  <p class=MsoNormal><b><span style='color:windowtext'>Field</span></b><b><span
+  style='font-size:12.0pt;color:windowtext'><o:p></o:p></span></b></p>
+  </td>
+  <td width=195 valign=top style='width:146.05pt;border-top:none;border-left:
+  none;border-bottom:solid navy .75pt;border-right:solid navy .75pt;mso-border-top-alt:
+  solid navy .75pt;mso-border-left-alt:solid navy .75pt;background:white;
+  padding:0in 4.2pt 0in 4.2pt'>
+  <p class=MsoNormal><b><span style='color:windowtext'>Type</span></b><b><span
+  style='font-size:12.0pt;color:windowtext'><o:p></o:p></span></b></p>
+  </td>
+  <td width=198 valign=top style='width:148.45pt;border-top:none;border-left:
+  none;border-bottom:solid navy .75pt;border-right:solid navy .75pt;mso-border-top-alt:
+  solid navy .75pt;mso-border-left-alt:solid navy .75pt;background:white;
+  padding:0in 4.2pt 0in 4.2pt'>
+  <p class=MsoNormal><b><span style='color:windowtext'>Comment</span></b><b><span
+  style='font-size:12.0pt;color:windowtext'><o:p></o:p></span></b></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=169 valign=top style='width:126.45pt;border:solid navy .75pt;
+  border-top:none;mso-border-top-alt:solid navy .75pt;padding:0in 4.2pt 0in 4.2pt'>
+  <p class=MsoNormal><span style='color:windowtext'>Header</span><span
+  style='font-size:12.0pt;color:windowtext'><o:p></o:p></span></p>
+  </td>
+  <td width=195 valign=top style='width:146.05pt;border-top:none;border-left:
+  none;border-bottom:solid navy .75pt;border-right:solid navy .75pt;mso-border-top-alt:
+  solid navy .75pt;mso-border-left-alt:solid navy .75pt;padding:0in 4.2pt 0in 4.2pt'>
+  <p class=MsoNormal><span style='color:windowtext'>RECORDHEADER</span><span
+  style='font-size:12.0pt;color:windowtext'><o:p></o:p></span></p>
+  </td>
+  <td width=198 valign=top style='width:148.45pt;border-top:none;border-left:
+  none;border-bottom:solid navy .75pt;border-right:solid navy .75pt;mso-border-top-alt:
+  solid navy .75pt;mso-border-left-alt:solid navy .75pt;padding:0in 4.2pt 0in 4.2pt'>
+  <p class=MsoNormal><span style='color:windowtext'>Tag ID = 0</span><span
+  style='font-size:12.0pt;color:windowtext'><o:p></o:p></span></p>
+  </td>
+ </tr>
+</table>
+
+<h3><a name=h3Actions></a><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></h3>
+
+</div>
+
+</body>
+
+</html>
